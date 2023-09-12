@@ -23,10 +23,12 @@ Se agregó opción de modo oscuro-claro y música.
 # **📸IMÁGENES**
 
 ![](https://res.cloudinary.com/carina-bosio/image/upload/v1694529106/01_v9dkds.png)
-![]([https://res.cloudinary.com/dos3i5jqy/image/upload/v1677756437/custom-sports/customsports2_c2u5yk.jpg](https://res.cloudinary.com/carina-bosio/image/upload/v1694529107/02_jojxwj.png))
-![]([https://res.cloudinary.com/dos3i5jqy/image/upload/v1677756436/custom-sports/customsports3_vrdpde.jpg](https://res.cloudinary.com/carina-bosio/image/upload/v1694529107/03_wpfslv.png))
-![]([https://res.cloudinary.com/dos3i5jqy/image/upload/v1677756437/custom-sports/customsports4_iyegjw.jpg](https://res.cloudinary.com/carina-bosio/image/upload/v1694529108/04_xjv33r.png))
-![]([https://res.cloudinary.com/dos3i5jqy/image/upload/v1677756437/custom-sports/customports5_wdpqsr.jpg](https://res.cloudinary.com/carina-bosio/image/upload/v1694529107/05_uomfih.png)https://res.cloudinary.com/carina-bosio/image/upload/v1694529107/05_uomfih.png)
+![](https://res.cloudinary.com/carina-bosio/image/upload/v1694529107/02_jojxwj.png)
+![](https://res.cloudinary.com/carina-bosio/image/upload/v1694529107/03_wpfslv.png)
+![](https://res.cloudinary.com/carina-bosio/image/upload/v1694529108/04_xjv33r.png)
+![](https://res.cloudinary.com/carina-bosio/image/upload/v1694529107/05_uomfih.png)
+
+
 
 
 
