@@ -3,9 +3,9 @@
 # **📑GUÍA**
 
 <ol>
-     <li><a href="#about-the-project">Acerca del proyecto</a></li>
-     <li><a href="#technologies-used">Tecnologías usadas</a></li>
-     <li><a href="#images">Imágenes</a></li>
+     <li><a href="#acerca-del-proyecto">Acerca del proyecto</a></li>
+     <li><a href="#tecnologías-usadas">Tecnologías usadas</a></li>
+     <li><a href="#imágenes">Imágenes</a></li>
 </ol>
 
 # **💬ACERCA DEL PROYECTO**
