@@ -3,10 +3,22 @@
 # **📑GUÍA**
 
 <ol>
-     <li><a href="#images">Images</a></li>
-     <li><a href="#about-the-project">About The Project</a></li>
-     <li><a href="#technologies-used">Technologies Used</a></li>
-     </ol>
+     <li><a href="#about-the-project">Acerca del proyecto</a></li>
+     <li><a href="#technologies-used">Tecnologías usadas</a></li>
+     <li><a href="#images">Imágenes</a></li>
+</ol>
+
+# **💬ACERCA DEL PROYECTO**
+
+**Portfolio personal** que presenta algunos de mis proyectos, así como mi currículum, habilidades técnicas y formulario de contacto.
+Se agregó opción de modo oscuro-claro y música.
+
+# **🌐TECNOLOGÍAS USADAS**
+
+* HTML
+* CSS
+* JAVASCRIPT
+
 
 # **📸IMÁGENES**
 
@@ -21,14 +33,5 @@
 ![](https://res.cloudinary.com/dos3i5jqy/image/upload/v1677756437/custom-sports/customsports9_qpwjos.jpg)
 ![](https://res.cloudinary.com/dos3i5jqy/image/upload/v1677756437/custom-sports/customsports10_ymhev1.jpg)
 
-# **💬ACERCA DEL PROYECTO**
-
-Custom Sports, online store of sports apparel, where you can design and buy the sports model, with the possibility to create and manage a personal user account.
-
-# **🌐TECNOLOGÍAS USADAS**
-
-* HTML
-* CSS
-* JAVASCRIPT
 
 
