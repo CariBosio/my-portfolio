@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/Logo.jpg" />
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
+    <title>CB Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="sweetalert2.min.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- navbar -->
+      <nav class="navbar">
+        <div class="logo_item">
+          <i class="bx bx-menu" id="sidebarOpen"></i>
+        </div>
+        <div class="navbar_content">
+          <i class="bx bx-sun" id="darkLight"></i>
+          <div class="music">
+            <i class="fas fa-music"></i>
+            <div class="on-off">
+              <audio
+                id="myAudio"
+                src="./Always Moving Forward.mp3"
+                loop></audio>
+              <button id="playPauseButton">
+                <i id="playPauseIcon" class="fas fa-play"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="section-weather">
+        <div class="text-weather">
+          <span id="city"></span>
+          <span id="temperature"></span> -->
+        <!-- <span id="weather-description"></span> -->
+        <!-- </div>
+        <div class="icon-weather"><img id="weather-icon" src="" alt="" /></div>
+      </div> -->
+      </nav>
+      <!-- sidebar -->
+      <nav class="sidebar">
+        <div class="menu_content">
+          <div class="person">
+            <img
+              class="logo"
+              src="https://res.cloudinary.com/carina-bosio/image/upload/v1685457276/Logo-bis-removebg-preview_vklvub.png"
+              alt="Logo CB" />
+            <span class="funcion">Front End Web Developer</span>
+          </div>
+          <ul class="menu_items">
+            <li class="item">
+              <a href="#inicio" class="nav_link submenu_item">
+                <span class="navlink_icon">
+                  <i class="fas fa-home"></i>
+                </span>
+                <span class="navlink">Inicio</span>
+              </a>
+            </li>
+            <li class="item">
+              <a href="#about" class="nav_link submenu_item">
+                <span class="navlink_icon">
+                  <i class="fas fa-user"></i>
+                </span>
+                <span class="navlink">Acerca de mi</span>
+              </a>
+            </li>
+            <li class="item">
+              <a href="#about" class="nav_link">
+                <span class="navlink_icon">
+                  <i class="fas fa-cogs"></i>
+                </span>
+                <span class="navlink">Mis habilidades</span>
+              </a>
+            </li>
+            <li class="item">
+              <a href="https://res.cloudinary.com/carina-bosio/image/upload/v1687392607/CV_-_Carina_Bosio_-_2023_actualizado_p811fm.pdf"
+                class="nav_link" target="blank">
+                <span class="navlink_icon">
+                  <i class="fas fa-file"></i>
+                </span>
+                <span class="navlink_text">CV - Resumen</span>
+              </a>
+            <li class="item">
+              <a href="#projects" class="nav_link">
+                <span class="navlink_icon">
+                  <i class="fas fa-code"></i>
+                </span>
+                <span class="navlink">Mis proyectos</span>
+              </a>
+            </li>
+            <li class="item">
+              <a href="#contact" class="nav_link">
+                <span class="navlink_icon">
+                  <i class="fas fa-envelope"></i>
+                </span>
+                <span class="navlink">Contacto</span>
+              </a>
+            </li>
+            <li class="item-social">
+              <ul class="social-icons">
+                <li class="list">
+                  <a
+                    href="https://www.linkedin.com/in/carina-susana-bosio-73621215b"
+                    target="blank"
+                    class="link-social">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+                <li class="list">
+                  <a
+                    href="https://github.com/CariBosio"
+                    target="blank"
+                    class="link-social">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </li>
+                <li class="list">
+                  <a
+                    href="mailto:caribosio72@gmail.com"
+                    target="blank"
+                    class="link-social">
+                    <i class="fas fa-envelope"></i>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <!-- end -->
+          </ul>
+          <!-- Sidebar Open / Close -->
+          <div class="btn_content">
+            <div class="btn expand_sidebar">
+              <span> Expand</span>
+              <i class="bx bx-log-in"></i>
+            </div>
+            <div class="btn collapse_sidebar">
+              <span class="text-collapse"> Collapse</span>
+              <i class="bx bx-log-out"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <section id="inicio" class="sectionsPrincipal">
+        <div class="text-home">
+          <div class="tags-before">
+            <p class="html">&lt;html&gt;</p>
+            <p class="body">&lt;body&gt;</p>
+            <div class="blocks-text">
+              <div class="block-text-1">
+                <p class="h1">&lt;h1&gt;</p>
+                <div class="presentacion">Hola,</div>
+              </div>
+              <div class="block-text-2">
+                <!-- <div class="presentacion"> -->
+                <div>Soy</div>
+                <div>
+                  <spam class="nombre-logo">Carina Bosio</spam>
+                </div>
+                ,
+                <!-- </div> -->
+              </div>
+
+              <!-- <img src="https://res.cloudinary.com/carina-bosio/image/upload/v1665334004/CARINA_ROSA-removebg-preview_no2ubd.png"
+                        alt="Name" class="animate__animated animate__rotateIn"> -->
+
+              <br />
+              <div class="block-text-3">
+                <div class="presentacion">Full stack web</div>
+                <div class="developer-tag">
+                  developer
+
+                  <p class="h1">&lt;/h1&gt;</p>
+                </div>
+              </div>
+            </div>
+            <br />
+            <p class="p">
+              &lt;p&gt;<spam class="front">FrontEnd Development</spam>&lt;/p&gt;
+            </p>
+
+            <p class="body">&lt;/body&gt;</p>
+            <p class="html">&lt;/html&gt;</p>
+          </div>
+        </div>
+        <a
+          href="mailto:caribosio72@gmail.com"
+          target="blank"
+          class="contact-button">
+          <div>
+            <span class="bg"></span>
+            <span class="base"></span>
+            <span class="text"> Contactame! </span>
+          </div>
+        </a>
+        <div class="foto">
+          <img
+            src="https://res.cloudinary.com/carina-bosio/image/upload/v1685382819/cara_2-removebg-preview_lzhxjr.png"
+            alt="foto" />
+        </div>
+     
+          <div class="scroll-down-rigth">
+            <span>scroll down</span>
+            <!-- <i class="fas fa-arrow-down"></i> -->
+          </div>
+          <div id="mouse-scroll">
+            <div class="mouse">
+              <div class="mouse-in"></div>
+            </div>
+            <div>
+              <span class="down-arrow-1"></span>
+              <span class="down-arrow-2"></span>
+              <span class="down-arrow-3"></span>
+            </div>
+          </div>
+        
+
+        <div class="scroll-down-left">
+          <span>scroll down</span>
+          <!-- <i class="fas fa-arrow-down"></i> -->
+        </div>
+        <div id="mouse-scroll-left">
+          <div class="mouse-left">
+            <div class="mouse-in-left"></div>
+          </div>
+          <div>
+            <span class="down-arrow-1-left"></span>
+            <span class="down-arrow-2-left"></span>
+            <span class="down-arrow-3-left"></span>
+          </div>
+        </div>
+      </section>
+      <div class="foto-scroll">
+        <div class="foto-fija"></div>
+      </div>
+
+      <section class="sectionsAbout habilidades">
+        <div>
+          <spam id="about" class="title-section">A cerca de mi</spam>
+        </div>
+        <div class="text-zone">
+          <p class="text-about">
+            Full Stack Web Developer y Lic. en Psicología, de Córdoba,
+            Argentina.
+            <!-- y muy entusiasta del Diseño FrontEnd. -->
+          </p>
+          <p class="text-about">
+            Desde la intervención Psicológica mi propósito ha sido siempre
+            comprender y acompañar emocionalmente los "malestares", pero, sobre
+            todas las cosas, comprender y favorecer los "bienestares", apoyando
+            a las personas a desarrollar todo su potencial. Disfruto ayudar a
+            las personas en su crecimiento, encontrar su propósito y desarrollar
+            sus habilidades.
+          </p>
+          <p class="text-about">
+            En un mismo sentido, desde la Programación, siempre trato de brindar
+            una mirada enfocada en la experiencia de usuario, intentando
+            comprender e interpretar qué le puede servir, gustar o motivar.
+          </p>
+          <p class="text-about">
+            Tengo una gran pasión por los efectos de interfaz de usuario, las
+            animaciones y la creación de experiencias de usuario intuitivas y
+            dinámicas.
+          </p>
+          <p class="text-about">
+            Me encanta el trabajo en equipo, la comunicación y la colaboración.
+            Me considero una persona muy empática, con una gran capacidad de
+            escucha y de adaptación. Me gusta aprender y me apasiona el
+            desarrollo personal y profesional.
+          </p>
+        </div>
+
+        <div class="skills-charts">
+          <div id="myCanvasContainer">
+            <canvas width="500" height="500" id="myCanvas">
+              <ul id="tags" class="tags-tecno">
+                <li><a href="#" target="_blank">NodeJS</a></li>
+                <li><a href="#" target="_blank">React</a></li>
+                <li><a href="#" target="_blank">Redux</a></li>
+                <li><a href="#" target="_blank">Express</a></li>
+                <li><a href="#" target="_blank">Sequelize</a></li>
+                <li><a href="#" target="_blank">PostgreSQL</a></li>
+                <li><a href="#" target="_blank">Postman</a></li>
+                <li><a href="#" target="_blank">JavaScript</a></li>
+                <li><a href="#" target="_blank">TypeScript</a></li>
+                <li><a href="#" target="_blank">HTML</a></li>
+                <li><a href="#" target="_blank">CSS</a></li>
+                <li><a href="#" target="_blank">CSS-Modules</a></li>
+                <li><a href="#" target="_blank">SASS</a></li>
+                <li><a href="#" target="_blank">Styled Component</a></li>
+                <li><a href="#" target="_blank">Bootstrap</a></li>
+                <li><a href="#" target="_blank">Figma</a></li>
+                <li><a href="#" target="_blank">GitHub</a></li>
+                <li><a href="#" target="_blank">Heroku</a></li>
+                <li><a href="#" target="_blank">Railway</a></li>
+                <li><a href="#" target="_blank">Canva</a></li>
+                <li><a href="#" target="_blank">Spark AR Studio</a></li>
+                <li><a href="#" target="_blank">Sketchfab</a></li>
+              </ul>
+            </canvas>
+          </div>
+        </div>
+      </section>
+      <section class="sectionsPortfolio">
+        <div>
+          <spam id="projects" class="title-portfolio">Portfolio</spam>
+        </div>
+        <div class="invitation-projects">
+          <p class="text-invitation">
+            Una pequeña galería de proyectos recientes.
+            <br />
+            ¿Interesado en ver más? Visitá
+            <a href="#" class="tech"> mi página de trabajo </a>
+          </p>
+        </div>
+        <div class="project-cards">
+          <div class="card">
+            <div class="imgBx">
+              <img
+                src="https://res.cloudinary.com/carina-bosio/image/upload/v1664409223/Landing_3_uxgqiz.png"
+                alt="images" />
+            </div>
+            <div class="details">
+              <h2>
+                Countries App
+                <br />
+                <span>
+                  <a
+                    href="https://pi-countries-client-rhux.vercel.app/"
+                    title="">
+                    Ver más
+                  </a>
+                </span>
+              </h2>
+            </div>
+          </div>
+          <div class="card">
+            <div class="imgBx">
+              <img
+                src="https://res.cloudinary.com/carina-bosio/image/upload/v1665530917/portada_ba3s8l.png"
+                alt="images" />
+            </div>
+            <div class="details">
+              <h2>
+                Compu Store
+                <br />
+                <span>
+                  <a
+                    href="https://compustore-ecomerce-henry-4vzgh7e78-herinyhert.vercel.app/home"
+                    title="">
+                    Ver más
+                  </a>
+                </span>
+              </h2>
+            </div>
+          </div>
+          <div class="card">
+            <div class="imgBx">
+              <img
+                src="https://res.cloudinary.com/carina-bosio/image/upload/v1685663921/e-stadium_aw7uf9.jpg"
+                alt="images" />
+            </div>
+            <div class="details">
+              <h2>
+                e-stadium
+                <br />
+                <span>
+                  <a href="https://e-stadium.vercel.app/" title=""> Ver más </a>
+                </span>
+              </h2>
+            </div>
+          </div>
+          <div class="card">
+            <div class="imgBx">
+              <img
+                src="https://res.cloudinary.com/carina-bosio/image/upload/v1685664187/Custom_Sports_fhuvtd.jpg"
+                alt="images" />
+            </div>
+            <div class="details">
+              <h2>
+                Custom Sports
+                <br />
+                <span>
+                  <a
+                    href="http://ec2-18-118-29-121.us-east-2.compute.amazonaws.com/"
+                    title="">
+                    Ver más
+                  </a>
+                </span>
+              </h2>
+            </div>
+          </div>
+          <div class="card">
+            <div class="imgBx">
+              <img
+                src="https://res.cloudinary.com/carina-bosio/image/upload/v1685664406/Screen_Challenger_rwqup4.jpg"
+                alt="images" />
+            </div>
+            <div class="details">
+              <h2>
+                Encriptador de texto
+                <br />
+                <span>
+                  <a
+                    href="https://caribosio.github.io/Encriptador-de-texto-Alura-Challenges-Oracle-ONE/"
+                    title="">
+                    Ver más
+                  </a>
+                </span>
+              </h2>
+            </div>
+          </div>
+          <div class="card">
+            <div class="imgBx">
+              <img
+                src="https://res.cloudinary.com/carina-bosio/image/upload/v1685664748/FAQs_ppnfix.jpg"
+                alt="images" />
+            </div>
+            <div class="details">
+              <h2>
+                Faqs-Aptugo
+                <br />
+                <span>
+                  <a href="https://faqslite.aptugo.app/" title=""> Ver más </a>
+                </span>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sectionsContact">
+        <div>
+          <spam id="contact" class="title-contact">Contacto</spam>
+        </div>
+        <div class="contact-heading">
+          <p class="text-invitation">
+            Estoy interesada en nuevas oportunidades y en comenzar a desarrollar
+            mi carrera IT, especialmente proyectos FrontEnd. Si tiene alguna
+            pregunta, no dude en utilizar el formulario.
+          </p>
+        </div>
+
+        <form id="form" class="form" autocomplete="off">
+          <div class="field">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Nombre *"
+              required />
+          </div>
+          <div class="field">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Correo electrónico *"
+              autocomplete="new-password"
+              required />
+          </div>
+          <div class="field">
+            <input
+              type="text"
+              name="subject"
+              id="subject"
+              placeholder="Asunto"
+              autocomplete="new-password" />
+          </div>
+          <div class="field">
+            <textarea
+              type="text"
+              name="message"
+              id="message"
+              placeholder="Mensaje *"
+              autocomplete="new-password"
+              required></textarea>
+          </div>
+          <p class="text-campos-obligatorios">* Campos obligatorios</p>
+          <button
+            type="submit"
+            class="contact-button submit-button"
+            id="button">
+            <div>
+              <span class="bg"></span>
+              <span class="base"></span>
+              <span class="text">Enviar mensaje</span>
+            </div>
+          </button>
+        </form>
+      </section>
+
+      <section class="footer">
+        <spam class="copyright">&#169; Carina Bosio 2023</spam>
+        <a
+          href="https://www.linkedin.com/in/carina-susana-bosio-73621215b"
+          target="blank"
+          class="link-social-footer">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a
+          href="https://github.com/CariBosio"
+          target="blank"
+          class="link-social-footer">
+          <i class="fab fa-github"></i>
+        </a>
+      </section>
+      <button onclick="scrollToTop()" id="toTopButton" title="Ir arriba">
+        <i class="fa-solid fa-chevron-up" style="color: #ffffff"></i>
+      </button>
+    </div>
+    <!-- JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+      emailjs.init("zYWJejp97xnJjIqkY");
+    </script>
+    <!-- <script async src="https://app1.weatherwidget.org/js/?id=ww_8046106156caa"></script> -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="./jquery.tagcanvas.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
